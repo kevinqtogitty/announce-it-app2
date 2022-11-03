@@ -1,0 +1,36 @@
+###
+GET http://localhost:4000/user
+
+###
+POST http://localhost:4000/user
+Content-Type: application/json
+
+
+  {
+    "personalDetails": {
+      "firstName": "Kevin",
+      "lastName": "To",
+      "email": "kevinq.to@gmail.com"
+    },
+    "userId": "123",
+    "dateCreated": "Yesterday",
+    "accountType": "team_leader",
+  }
+
+###
+GET http://localhost:4000/announcements/teamAnnouncement/1436261632191
+
+###
+GET  http://localhost:4000/team/man
+
+###
+POST  http://localhost:4000/leaderOf/zNxVuHJKZ5YD8jtfBaQ59DI3k3p1/BBallClub
+
+### 
+DELETE http://localhost:4000/memberOf/zNxVuHJKZ5YD8jtfBaQ59DI3k3p1/1477668930090
+
+###
+POST http://localhost:4000/leaderOf/y0I6LxlUERfnaRqTNDvOh5gugFK2/marksclub
+
+###
+POST http://localhost:4000/announcements/Qrm0xfmZVyVaKmJNaNfx67PHdsZ2
