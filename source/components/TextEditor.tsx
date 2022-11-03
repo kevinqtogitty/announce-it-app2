@@ -114,7 +114,6 @@ const SubmitButtonStyled = styled.button`
 `;
 
 const EditorBarAndContentWrapper = styled.div`
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
