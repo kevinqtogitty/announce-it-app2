@@ -17,5 +17,3 @@ export const firebaseApp = initializeApp({
   messagingSenderId: api.messaging_sender_id,
   appId: api.app_id,
 });
-
-console.log(api.key)
